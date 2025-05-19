@@ -1,0 +1,9 @@
+{
+  "handlers": [
+    {
+      "repositoryUrl": "https://github.com/username/reponame",
+      "ref": "refs/heads/main",
+      "scriptPath": "/home/your-user/deploy.sh"
+    }
+  ]
+}
