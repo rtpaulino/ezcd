@@ -13,8 +13,6 @@ export class AppService {
   ) {}
 
   async processPushEvent(event: PushEvent): Promise<void> {
-    console.log('Processing push event:', event);
-
     const handler = this.configuration.findHandler({
       repositoryUrl: event.repository.html_url,
       ref: event.ref,
